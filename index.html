@@ -43,7 +43,8 @@
         <section class="firstsection">
             <div class="leftsection">
                 <h1>Hey, I am Taha</h1>
-                <p>I am a web developer</p>
+                <p>I am a</p>
+                <span id="element"></span>
                 <div class="button">
                     <a href="" download class="btn">Here's My Resume</a>
                 </div>
@@ -78,8 +79,9 @@
             </section>
         </div>
         <div id="services">
-            <div class="container">
-                <h1>Services</h1>
+            <h1>Services</h1>
+            <div class="services-container">
+                
                 <div class="services-row">
                     <div class="col1">
                         <h3>Web Development</h3>
@@ -118,6 +120,13 @@
 
 
     </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Computer Science Student.', 'Web Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
 </body>
 
 </html>
