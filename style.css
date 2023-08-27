@@ -128,13 +128,14 @@ footer {
 }
 .aboutbox {
   margin: 30px 0;
-  margin-top: 30px;
+  margin-top: 10px;
   padding: 20px;
   font-size: 16px;
   font-weight: 300;
   border-radius: 10px;
   transition: background 0.5s, transform 0.5s;
   background-color: #02020279;
+  width: 600px;
 }
 .aboutbox p {
   text-align: justify;
