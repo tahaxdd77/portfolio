@@ -57,6 +57,7 @@ nav ul li a:hover {
   justify-content: space-around;
   align-items: center;
   margin: 80px 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .firstsection > div {
   width: 30%;
@@ -161,6 +162,8 @@ footer {
   color: rgb(226, 226, 241);
   font-size: medium;
   font-family: "Roboto Mono", monospace;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
 }
 .services-container{
   display: flex;
